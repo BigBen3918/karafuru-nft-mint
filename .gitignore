@@ -1,0 +1,23 @@
+# dependencies
+node_modules
+# production
+logs
+artifacts
+ref
+dist
+certs
+cache
+.vscode
+files
+# misc
+.env
+.env.*
+domains.*.json
+chains.*.json
+coins.*.json
+hardhat.config.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+test.md

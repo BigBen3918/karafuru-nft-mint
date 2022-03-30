@@ -1,0 +1,31 @@
+{
+  "name": "2022-02-05-karafuru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hardhat.config.js",
+  "dependencies": {
+    "ethers": "^5.5.4"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.4.2",
+    "chai": "^4.3.4",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "hardhat": "^2.8.3",
+    "hardhat-deploy": "^0.9.3",
+    "mocha": "^9.1.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "deploy": "npx hardhat run --network bsctest scripts/deploy.js",
+    "build": "rimraf dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
